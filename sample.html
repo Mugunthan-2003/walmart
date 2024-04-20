@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Marks</title>
+</head>
+<body>
+    <h1>My Marks</h1>
+    <p>Maths: <span id="mathsMarks">90</span></p>
+    <p>Science: <span id="scienceMarks">85</span></p>
+    <p>English: <span id="englishMarks">92</span></p>
+    <script>
+        // You can set your marks dynamically using JavaScript
+        document.getElementById('mathsMarks').innerText = getMathsMarks();
+        document.getElementById('scienceMarks').innerText = getScienceMarks();
+        document.getElementById('englishMarks').innerText = getEnglishMarks();
+
+        // Sample functions to get marks dynamically
+        function getMathsMarks() {
+            // Replace this with your actual maths marks retrieval logic
+            return 90;
+        }
+
+        function getScienceMarks() {
+            // Replace this with your actual science marks retrieval logic
+            return 85;
+        }
+
+        function getEnglishMarks() {
+            // Replace this with your actual english marks retrieval logic
+            return 92;
+        }
+    </script>
+</body>
+</html>
